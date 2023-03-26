@@ -1,61 +1,40 @@
 body {
-  align-items: center;
-  justify-content: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  background: linear-gradient(
-      rgba(255, 255, 255, 0.5),
-      rgba(255, 255, 255, 0.3)
-    ),
-    url("https://img.freepik.com/free-vector/frame-with-dogs-vector-white-background_53876-127700.jpg?w=2000");
+  color: #edf6f9;
   overflow: scroll;
 }
 
-.divider:after,
-.divider:before {
-  content: "";
-  flex: 1;
-  height: 1px;
-  background: #eee;
+h1,
+h2 {
+  text-align: center;
+  color: #006d77;
 }
-.h-custom {
-  height: calc(100% - 73px);
-}
-@media (max-width: 450px) {
-  .h-custom {
-    height: 100%;
-  }
-}
-
-.left-list {
-  margin-left: 30%;
-}
-.right-list {
-  margin-right: 30%;
+h3,
+h4,
+h5 {
+  color: #83c5be;
 }
 
 .form-heading {
   text-align: center;
   margin: 3% auto;
   width: 40%;
-  background-color: #f0f0df;
   border-radius: 25px;
+  font-size: 1.8rem;
 }
-.form-label {
-  text-align: left;
-  padding-right: 10px;
-}
-
 .service {
+  color: #006d77;
+  font-size: 1rem;
+  font-weight: bold;
   text-align: left;
-  margin: 20px auto;
+  margin: 0 auto;
   width: 60%;
 }
-.service-heading{
+.service-heading h3{
   text-align: center;
-  text-decoration: solid;
-  color: rgb(165, 74, 9);
+  margin: 3% auto;
+  color: #006d77;
+  font-size: 1.8rem;
+  font-weight: 500;
 }
 
 .errorMessage {
@@ -74,12 +53,61 @@ label {
   text-align: right;
 }
 
-footer {
-  background-color: rgb(247, 242, 231);
+.home-footer {
+  position: relative;
+  bottom: 0;
+  margin-top: auto;
+  background-color: #e28e70;
+  color: #ffddd2;
   height: 50px;
   width: 100%;
-  position: absolute;
-  bottom: 0;
   text-align: center;
   padding-top: 10px;
+  justify-content: center;
+}
+
+.home-form {
+  margin: auto;
+  width: 70%;
+}
+
+.home-nav {
+  background-color: #3a98b9;
+  color: #bad7e9;
+  height: 4rem;
+  text-align: center;
+  padding: 10px 0px; 
+  justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  .home-nav {
+    font-size: small;
+  }
+}
+.nav-link {
+  color: #bad7e9;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease-in-out;
+  display: inline-block;
+}
+.nav-link:hover {
+  background-color: #dbdada;
+  color: #000;
+}
+
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+.h-custom {
+  height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+  .h-custom {
+    height: 100%;
+  }
 }

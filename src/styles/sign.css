@@ -1,0 +1,80 @@
+.sign-container{
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  width: 100%;
+  background-color: #fff;
+  background-image: url("../images/bgimg.jpg");
+}
+.login{
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  color: #3A98B9;
+  font-weight: 600;
+}
+.heading {
+  color: #3A98B9;
+  text-align: center;
+  margin-top: 3rem;
+}
+.btn-google {
+  text-align: center;
+  background-color: #dd4b39;
+  color: #fff;
+}
+.btn-facebook {
+  text-align: center;
+  background-color: #3b5998;
+  color: #fff;
+}
+
+.btn-github {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+}
+.card {
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  width: 40%;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+.card-v2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  width: 40%;
+  height: 250px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.button {
+  width: 200px;
+  margin-bottom: 10px;
+  border: none; 
+  transition: 0.5s ease; 
+}
+.button:hover{
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+  ;
+}
+
+.card-body i {
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}

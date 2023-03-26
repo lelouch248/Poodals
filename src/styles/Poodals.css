@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&family=Fasthand&family=Indie+Flower&family=Montserrat:wght@400;600;700&display=swap");
+
+hr{
+    border: 3px solid #fbaf95;
+    width: 100%;
+    margin: 0;
+
+}
+.poodals-container{
+
+    background-color: #fff;
+}
+
+.our-story{
+    margin: 100px auto;
+    width: 80%;
+}
+
+
+.our-story-body h2{
+    text-align:left;
+    display: inline ;
+}
+
+.our-story-body p {
+    margin:20px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.5rem;
+}
+.our-story-body a{
+    text-decoration: none;
+    color: #e29578;
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family: 'Indie Flower', cursive;
+}
+.know-more{
+    margin: auto 20px;
+    transition: 0.5s ease-in-out;
+}
+.know-more:hover{
+    transform: scale(1.05);
+}
+.story-img img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 25%;
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+
+.img1{
+    
+}
+.img2{
+    position: relative;
+    bottom: 80px;
+    left :250px;
+}

@@ -1,0 +1,28 @@
+.about-us-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/sky.jpg");
+  background-size: cover;
+}
+
+.about-us-content {
+  max-width: 800px;
+  text-align: center;
+}
+
+.about-us-heading {
+  color: #006d77;
+  font-size: 3rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.about-us-description {
+  color: rgb(233, 220, 220);
+  font-size: 1.5rem;
+}
+
+
