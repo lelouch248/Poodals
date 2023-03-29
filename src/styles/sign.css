@@ -1,11 +1,16 @@
+
+.signin-row{
+  margin: 150px 0;
+}
 .sign-container{
   justify-content: center;
   align-items: center;
-  height: 90vh;
   width: 100%;
   background-color: #fff;
-  background-image: url("../images/bgimg.jpg");
+  border-radius: 10px;
+  padding: 0px;
 }
+
 .login{
   width: 50%;
   justify-content: center;
@@ -21,6 +26,7 @@
   color: #3A98B9;
   text-align: center;
   margin-top: 3rem;
+  font-weight: bold;
 }
 .btn-google {
   text-align: center;
@@ -77,4 +83,21 @@
   padding: 10px;
   display: flex;
   justify-content: space-between;
+}
+
+.dog1{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+.poki{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
 }

@@ -1,6 +1,9 @@
 import React from "react";
 import "../styles/sign.css";
 
+import dog1 from "../images/sign/dog1.png";
+import poki from "../images/sign/poki.png";
+
 function Sign({ user }) {
   const google = () => {
     window.open("http://localhost:3001/auth/google", "_self");
@@ -14,10 +17,12 @@ function Sign({ user }) {
   };
 
   return (
-    <>
-      <h1 className="heading">Login</h1>
+    <div className="sign-bg">
+      <h1 className="heading ">Login</h1>
+      <img src={dog1} className="dog1" alt="dog1"/>
+      <img src={poki} className="poki" alt="poki"/>
       <div className=" container mt-5 login sign-container">
-        <div className="row">
+        <div className="row signin-row">
           <div className="col card">
             <div className="card-body">
               {/* <!-- Makes POST request to /login route --> */}
@@ -72,7 +77,7 @@ function Sign({ user }) {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

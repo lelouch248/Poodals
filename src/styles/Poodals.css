@@ -1,60 +1,134 @@
 @import url("https://fonts.googleapis.com/css2?family=Alkatra&family=Fasthand&family=Indie+Flower&family=Montserrat:wght@400;600;700&display=swap");
 
-hr{
-    border: 3px solid #fbaf95;
-    width: 100%;
-    margin: 0;
-
+hr {
+  border: 3px solid #fbaf95;
+  width: 100%;
+  margin: 0;
 }
-.poodals-container{
-
-    background-color: #fff;
+.poodal-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 13%;
+}
+.subheading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    text-align: center;
+    color: #fbaf95;
+    margin: 0 auto;
+}
+.poodals-container {
+  background-color: #fff;
 }
 
-.our-story{
-    margin: 100px auto;
-    width: 80%;
+.our-story {
+  margin: 100px auto;
+  width: 80%;
 }
 
-
-.our-story-body h2{
-    text-align:left;
-    display: inline ;
+.our-story-body h2 {
+  text-align: left;
+  display: inline;
 }
 
 .our-story-body p {
-    margin:20px;
-    font-family: 'Indie Flower', cursive;
-    font-size: 1.5rem;
+  margin: 20px;
+  font-family: "Indie Flower", cursive;
+  font-size: 1.5rem;
 }
-.our-story-body a{
-    text-decoration: none;
-    color: #e29578;
-    font-size: 1.8rem;
-    font-weight: bold;
-    font-family: 'Indie Flower', cursive;
+.our-story-body a {
+  text-decoration: none;
+  color: #e29578;
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-family: "Indie Flower", cursive;
 }
-.know-more{
-    margin: auto 20px;
-    transition: 0.5s ease-in-out;
+.know-more {
+  margin: auto 20px;
+  transition: 0.5s ease-in-out;
 }
-.know-more:hover{
-    transform: scale(1.05);
+.know-more:hover {
+  transform: scale(1.05);
 }
-.story-img img{
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 25%;
-    margin-left: 1rem;
-    margin-top: 2rem;
+.story-img img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 25%;
+  margin-left: 1rem;
+  margin-top: 2rem;
+}
+.img2 {
+  position: relative;
+  bottom: 80px;
+  left: 250px;
 }
 
-.img1{
-    
+/* Our values css styling */
+
+.our-values {
+  margin: 100px auto;
+  width: 100%;
+  height: 600px;
+  background-color: #ffddd2;
+  border-radius: 20%;
+  z-index: -2;
 }
-.img2{
-    position: relative;
-    bottom: 80px;
-    left :250px;
+.our-values h2 {
+  font-size: 2.5rem;
+  margin: 0;
 }
+.our-values hr {
+  border: 3px solid #006d77;
+  width: 10%;
+  margin: auto;
+}
+.values-img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 30px;
+  transition: 0.5s ease-in-out;
+
+}
+
+.values-img:hover {
+  transform: scale(1.2);
+}
+.values {
+    width: 80%;
+    margin: 0 auto;
+}
+.value-item {
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: wavy;
+}
+
+
+.bg-heart{
+    height: 500px;
+    width: 500px;
+    opacity: 0.2;
+    position: absolute;
+    left: 500px;
+    background-image: url("../images/paws.png");
+    background-size: cover;
+    background-position: center center;
+    transform: translate(-50%, -50%);
+    animation: grow-shrink 3s ease-in-out infinite;
+  }
+  
+  @keyframes grow-shrink {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+

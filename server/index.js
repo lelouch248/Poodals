@@ -99,6 +99,15 @@ app.post("/", (req, res) => {
   res.send("Booking saved");
 });
 
+app.get("/getBooking",async(req,res)=>{
+  try {
+    const allBookings = await BookingModel.find({})
+    res.send({status:"ok",data:allBookings});
+  } catch (error) {
+    
+  }
+})
+
 app.use("/auth",authRoute);
 
 app.get('/logout', function(req, res, next){

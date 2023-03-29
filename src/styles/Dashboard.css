@@ -1,0 +1,15 @@
+.dashboard-container{
+    margin: 80px auto;
+}
+
+.bookings{
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 15px;
+    box-shadow: 0 1px 2px #0000001a;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 60%;
+    align-self: center;
+    padding: 20px;
+}

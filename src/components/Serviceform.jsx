@@ -186,6 +186,10 @@ function Serviceform() {
       },
       body: JSON.stringify(values),
     }).then(() => {
+      setLoading(true);
+      setTimeout(() => {
+        setLoading(false);
+      }, 2000);
       alert("Booking saved");
     });
 
@@ -196,6 +200,8 @@ function Serviceform() {
       phone: "",
       petname: "",
       date: "",
+      service: "",
+      pettype: "",
     });
   };
 
@@ -240,8 +246,7 @@ function Serviceform() {
                   }}
                   onChange={onChange}
                 >
-                  <option value="select" disabled hidden selected>
-                    {" "}
+                  <option value="select" disabled hidden>
                     Select a {dropdownitems.name}
                   </option>
                   {dropdownitems.options.map((option) => (
@@ -253,15 +258,7 @@ function Serviceform() {
               ))}
             </div>
 
-            <button
-              className="Submit-btn btn btn-dark"
-              onClick={() => {
-                setLoading(true);
-                setTimeout(() => {
-                  setLoading(false);
-                }, 2000);
-              }}
-            >
+            <button className="Submit-btn btn btn-dark" type="submit">
               Submit
             </button>
           </form>

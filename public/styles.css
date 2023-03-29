@@ -1,5 +1,6 @@
 body {
   color: #edf6f9;
+  background-color: #edf6f9;
   overflow: scroll;
 }
 
@@ -13,7 +14,9 @@ h4,
 h5 {
   color: #83c5be;
 }
-
+a{
+  text-decoration: none;
+}
 .form-heading {
   text-align: center;
   margin: 3% auto;
@@ -29,7 +32,7 @@ h5 {
   margin: 0 auto;
   width: 60%;
 }
-.service-heading h3{
+.service-heading h3 {
   text-align: center;
   margin: 3% auto;
   color: #006d77;
@@ -56,14 +59,26 @@ label {
 .home-footer {
   position: relative;
   bottom: 0;
+  right: 0;
+  left: 0;
   margin-top: auto;
   background-color: #e28e70;
   color: #ffddd2;
-  height: 50px;
   width: 100%;
-  text-align: center;
   padding-top: 10px;
-  justify-content: center;
+}
+
+.footer-heading {
+  color: #ffddd2;
+  font-weight: bold;
+}
+.list-unstyled a{
+  color: #ffddd2;
+  transition: 0.5s ease-in-out;
+}
+.list-unstyled a:hover{
+  transform: 1.1;
+  color: #f4ecea;
 }
 
 .home-form {
@@ -74,9 +89,8 @@ label {
 .home-nav {
   background-color: #3a98b9;
   color: #bad7e9;
-  height: 4rem;
   text-align: center;
-  padding: 10px 0px; 
+  padding: 10px 0px;
   justify-content: center;
 }
 @media screen and (max-width: 768px) {
