@@ -86,7 +86,7 @@ function Navbar({ user }) {
         </div>
         </>
       ) : (
-        <Link className="link" to="/signin">
+        <Link className="link" to="/signup">
           Sign Up
         </Link>
       )}

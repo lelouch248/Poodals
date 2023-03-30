@@ -12,6 +12,7 @@ import Dashboard from "./pages/Dashboard";
 import Footer from "./components/Footer";
 import Poodals from "./pages/Poodals";
 import AboutUsPage from "./pages/Aboutus";
+import Signup from "./pages/Signup";
 
 function App() {
 
@@ -71,10 +72,14 @@ function App() {
                 path="/signin"
                 element={user ? <Navigate to="/" /> : <Sign user={user} />}
               />
+              <Route
+                path="/signup"
+                element={user ? <Navigate to="/" /> : <Signup user={user} />}
+              />
               <Route path="/contact" element={<ContactUs />} />
               <Route path="/services" element={<PetService />} />
               <Route path="/dashboard" element={<Dashboard />} />
-              <Route path="/poodals" element={<Poodals />} />
+              <Route path="/poodals" element={user?<Poodals />:<Navigate to="/signin"/>} />
               <Route path="/aboutus" element={<AboutUsPage/>} />
             </Routes>
             <Footer />
