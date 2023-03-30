@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/Poodals.git/static/css/main.e6831c81.css",
+    "main.js": "/Poodals.git/static/js/main.62217bbf.js",
+    "static/media/sky.jpg": "/Poodals.git/static/media/sky.934a57b9bcddb3cf36a0.jpg",
+    "static/media/petimg.jpg": "/Poodals.git/static/media/petimg.b6e381d40fb4f0d3d65b.jpg",
+    "static/media/cat.jpg": "/Poodals.git/static/media/cat.b678c3af325340bb5bee.jpg",
+    "static/media/dog1.png": "/Poodals.git/static/media/dog1.52962a293f250f438d3d.png",
+    "static/media/u2.jpeg": "/Poodals.git/static/media/u2.38f03ed8b5910e63b297.jpeg",
+    "static/media/u1.jpeg": "/Poodals.git/static/media/u1.21f38b082a0cc21329e1.jpeg",
+    "static/media/u5.jpeg": "/Poodals.git/static/media/u5.ad39a292f0e39efb013b.jpeg",
+    "static/media/haircut.jpeg": "/Poodals.git/static/media/haircut.9baaecfa57b70ce2db89.jpeg",
+    "static/media/sitting.jpg": "/Poodals.git/static/media/sitting.8a5907fae316640c1a58.jpg",
+    "static/media/u4.jpeg": "/Poodals.git/static/media/u4.d41e7107e35ad2f3f3ce.jpeg",
+    "static/media/poki.png": "/Poodals.git/static/media/poki.1698222ccee041f17f09.png",
+    "static/media/teethclean.jpg": "/Poodals.git/static/media/teethclean.ebcf88321a3640881d31.jpg",
+    "static/media/paws.png": "/Poodals.git/static/media/paws.7694bb516a7407881e20.png",
+    "static/media/bodywash.jpg": "/Poodals.git/static/media/bodywash.02c4dcf6d8515716dd9a.jpg",
+    "static/media/trust.png": "/Poodals.git/static/media/trust.debede7991ee12f378c0.png",
+    "static/media/u3.jpeg": "/Poodals.git/static/media/u3.8bddf3e7132350962c6e.jpeg",
+    "static/media/bgimg.jpg": "/Poodals.git/static/media/bgimg.76081dab9fd50287b6b6.jpg",
+    "static/media/grooming.jpg": "/Poodals.git/static/media/grooming.40aac35df372e8c4a6e8.jpg",
+    "static/media/convenient.png": "/Poodals.git/static/media/convenient.ba4f46d7fd1c61d4ec4f.png",
+    "static/media/satisfaction.png": "/Poodals.git/static/media/satisfaction.b3537a1384a0a59c0e92.png",
+    "static/media/revicons.eot": "/Poodals.git/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/Poodals.git/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/Poodals.git/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/Poodals.git/index.html",
+    "main.e6831c81.css.map": "/Poodals.git/static/css/main.e6831c81.css.map",
+    "main.62217bbf.js.map": "/Poodals.git/static/js/main.62217bbf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6831c81.css",
+    "static/js/main.62217bbf.js"
+  ]
+}
