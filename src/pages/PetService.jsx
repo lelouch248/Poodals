@@ -80,6 +80,7 @@ const petServicedata = [
   },
 ];
 function PetService() {
+  let count = 0;
   const [click, setClick] = React.useState(false);
 
   return (
@@ -92,6 +93,7 @@ function PetService() {
           <div
             class="service-card"
             onClick={() => setClick(!click)}
+            key={count++}
           >
             {click ? (
               <img src={service.image} className="service-img" alt="service" />

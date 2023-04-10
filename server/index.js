@@ -68,6 +68,7 @@ const bookingSchema = new mongoose.Schema({
   pettype: String,
   date: Date,
 });
+
 // // model creation for booking
 const BookingModel = new mongoose.model("Booking", bookingSchema);
 
@@ -115,7 +116,6 @@ app.get("/logout", function (req, res, next) {
   });
 });
 
-
 app.post("/signup", (req, res) => {
   try {
     const hashedPassword = bcrypt.hashSync(req.body.password, 8);
@@ -130,13 +130,11 @@ app.post("/signup", (req, res) => {
         console.log(user);
       }
     });
-    res.send("user has been saved to the database");  
+    res.send("user has been saved to the database");
     res.redirect("/signin");
   } catch {
     res.redirect("/signup");
   }
-  
-  
 });
 
 app.listen(3001, () => {
